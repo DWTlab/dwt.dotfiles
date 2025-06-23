@@ -1,0 +1,1 @@
+/home/dumpster/.bash_aliases
