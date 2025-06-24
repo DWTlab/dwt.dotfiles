@@ -39,6 +39,7 @@ alias enfr='trans :fr -b'
 alias vache='trans :fr -b | cowsay'
 alias newstat="richfetch | head ; echo ; echo 'Hello Riley; New Error' ; fortune bofh-excuses | tail -n 1"
 alias vi=nvim
+alias cat=bat
 
 #startup
 cd Projects/AutoCommit/ ; zsh auto.zsh ; cd ~
