@@ -20,17 +20,21 @@ alias lk='ls -a'
 alias ll='ls -a -l'
 alias vim='nvim'
 alias vi='nvim'
+alias gitca='git commit -a'
 
 ### AutoCommit
 alias acot='$AUTO_COMMIT/newauto.zsh'
 
-### APT shortcuts
-alias dwtupd="sudo apt update"
-alias dwtlst="apt list --upgradable"
-alias dwtupg="sudo apt upgrade"
+### Updaters
+alias dwtyay='yay --noconfirm'
+alias dwtflt='flatpak update'
+alias dwtchk='yay --noconfirm ; flatpak update'
+#alias dwtupd="sudo apt update"
+#alias dwtlst="apt list --upgradable"
+#alias dwtupg="sudo apt upgrade"
 
 ### Joke Updaters
-alias updatecow='cowsay "MOO.. Hold on.." ; sudo apt-get update | tail -n 1 | cowthink ; sleep 3 ; fortune bofh-excuses | tail -n +3 | cowsay ; sleep 4 ; sudo apt-get upgrade | tail -n 1 | cowsay -b'
+#alias updatecow='cowsay "MOO.. Hold on.." ; sudo apt-get update | tail -n 1 | cowthink ; sleep 3 ; fortune bofh-excuses | tail -n +3 | cowsay ; sleep 4 ; sudo apt-get upgrade | tail -n 1 | cowsay -b'
 
 ### Scripts
 alias tchoff='$SCRIPTS/touchpad_disable.zsh'
