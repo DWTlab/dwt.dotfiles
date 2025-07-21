@@ -45,3 +45,9 @@ source $ZSH/oh-my-zsh.sh
 # Temp Startup
 #cd Projects/AutoCommit/ ; zsh auto.zsh ; cd ~
 #zsh ~/Scripts/startup.zsh
+
+# Add Comet to PATH
+export PATH="/home/dumpster/.comet:$PATH"
+
+# Alias for Comet
+alias comet='sh /home/dumpster/.comet/comet.sh'

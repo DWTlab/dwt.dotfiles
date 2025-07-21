@@ -118,3 +118,12 @@ fi
 
 #startup scripts
 echo ; dwtstart ; echo
+
+# Add Comet-test to PATH
+export PATH="/home/dumpster/.comet-test:$PATH"
+
+# Add Comet to PATH
+export PATH="/home/dumpster/.comet:$PATH"
+
+# Alias for Comet
+alias comet='sh /home/dumpster/.comet/comet.sh'
