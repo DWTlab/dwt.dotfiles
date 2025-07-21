@@ -48,3 +48,4 @@ alias enfr='trans :fr -b'
 ### Status Outputs
 alias statcl='clear ; echo ; echo "Hello Riley, new errors detected."; fortune bofh-excuses | tail -n 1 ; echo ; richfetch ; echo'
 alias status='echo ; echo "Hello Riley, new errors detected."; fortune bofh-excuses | tail -n 1 ; echo ; richfetch ; echo'
+alias iplist='ip -c -p -br address'
