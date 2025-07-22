@@ -22,7 +22,8 @@ alias lk='ls -a'
 alias ll='ls -a -l'
 alias vim='sudoedit'
 alias vi='sudoedit'
-alias gitca='git commit -a'
+alias gita='git commit -a'
+alias gits='git status'
 
 ### AutoCommit
 alias acot='$AUTO_COMMIT/newauto.zsh'
