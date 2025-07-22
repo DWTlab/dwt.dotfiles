@@ -1,4 +1,4 @@
-(zsh ~/Projects/AutoCommit/newauto.zsh &>/dev/null &)
+(zsh ~/Projects/dwt.auto-commit/newauto.zsh &>/dev/null)
 echo && fastfetch && echo 
 echo 'Hello Riley >NEW ERROR DETECTED' && fortune bofh-excuses | tail -n -1 && echo
 

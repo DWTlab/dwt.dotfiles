@@ -20,8 +20,8 @@ alias website='cd ~/Projects/dwtlab.online/'
 ### Substitutes
 alias lk='ls -a'
 alias ll='ls -a -l'
-alias vim='sudoedit'
-alias vi='sudoedit'
+alias vim='nvim'
+alias vi='nvim'
 alias gita='git commit -a'
 alias gits='git status'
 
