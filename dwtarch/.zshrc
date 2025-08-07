@@ -27,3 +27,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat 
 source $ZSH/oh-my-zsh.sh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Created by `pipx` on 2025-08-06 22:56:03
+export PATH="$PATH:/home/dumpster/.local/bin"
