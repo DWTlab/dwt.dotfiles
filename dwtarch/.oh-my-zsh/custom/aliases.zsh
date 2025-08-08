@@ -24,7 +24,7 @@ alias vim='nvim'
 alias vi='nvim'
 alias gita='git commit -a'
 alias gits='git status'
-alias neofetch='fastfetch'
+alias fetch='fastfetch'
 
 ### AutoCommit
 alias acot='$AUTO_COMMIT/newauto.zsh'
